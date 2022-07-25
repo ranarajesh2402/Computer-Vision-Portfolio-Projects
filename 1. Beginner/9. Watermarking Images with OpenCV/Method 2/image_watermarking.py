@@ -3,7 +3,7 @@ import numpy as np
 from watermarking import watermarking
 
 image = cv2.imread("bird nest.jpg")
-watermark = cv2.imread("watermark3.png", cv2.IMREAD_UNCHANGED)
+watermark = cv2.imread("watermark1.png", cv2.IMREAD_UNCHANGED)
 # Showing the result
 final = watermarking(image, watermark)
 cv2.imshow("Watermarked image",final)
