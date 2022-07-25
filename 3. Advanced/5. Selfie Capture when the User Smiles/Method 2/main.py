@@ -16,7 +16,9 @@ while True:
         for x,y,w,h in smiles:
             img = cv2.rectangle(img,(x,y),(x+w,y+h),(100,100,100),5)
             print("Image "+str(cnt)+"Saved")
-            path=r'C:\Users\rr159\VISUAL STUDIO\6. Selfie Capture when the User Smiles\smile-selfie-capture-project\selfie' +str(cnt)+'.jpg'
+            
+            # Set the path to save the image
+            path=r'C:\Users\rr159\Computer-Vision-Portfolio-Projects\3. Advanced\5. Selfie Capture when the User Smiles\Method 2\selfie\selfie_' +str(cnt)+'.jpg'
             cv2.imwrite(path,img)
             cnt +=1
             if(cnt>=503):   
