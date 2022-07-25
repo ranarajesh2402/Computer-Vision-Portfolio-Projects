@@ -52,7 +52,7 @@ if __name__=="__main__":
 
 # 1. Put some image( like 50 to 60 images) into the 'static/img/' folder.
 
-# 2. Open Visual Studio Code in '8. Image Reverse Search Engine' folder.
+# 2. Open Visual Studio Code in '7. Image Reverse Search Engine' folder.
 
 # 3. Then, run the 'offline.py' as it'll create features in 'static/features/' folder with '.npy' extention.
 
